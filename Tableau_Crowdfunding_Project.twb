@@ -1,0 +1,2229 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Crowdfunding_project (Crowdfunding_Project)' inline='true' name='federated.0pl8xda0svupbh187xzk91v3cr95' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Crowdfunding_Project' name='excel-direct.0lgdolo1979y4e125blwy0qqrj55'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Excelr Project/Tableau/Crowdfunding_Project.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lgdolo1979y4e125blwy0qqrj55' name='Crowdfunding_project' table='[Crowdfunding_project$]' type='table'>
+          <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='blurb' ordinal='2' />
+            <column datatype='real' name='goal' ordinal='3' />
+            <column datatype='integer' name='pledged' ordinal='4' />
+            <column datatype='boolean' name='disable_communication' ordinal='5' />
+            <column datatype='string' name='country' ordinal='6' />
+            <column datatype='string' name='currency' ordinal='7' />
+            <column datatype='boolean' name='currency_trailing_code' ordinal='8' />
+            <column datatype='integer' name='deadline' ordinal='9' />
+            <column datatype='integer' name='launched_at' ordinal='10' />
+            <column datatype='boolean' name='staff_pick' ordinal='11' />
+            <column datatype='integer' name='backers_count' ordinal='12' />
+            <column datatype='boolean' name='spotlight' ordinal='13' />
+            <column datatype='integer' name='Successful_Projects' ordinal='14' />
+            <column datatype='datetime' name='Date Created Conversion' ordinal='15' />
+            <column datatype='datetime' name='Date Ended Conversion' ordinal='16' />
+            <column datatype='real' name='Project run_day' ordinal='17' />
+            <column datatype='integer' name='Year' ordinal='18' />
+            <column datatype='integer' name='Month' ordinal='19' />
+            <column datatype='string' name='Monthname' ordinal='20' />
+            <column datatype='integer' name='Quarter' ordinal='21' />
+            <column datatype='string' name='outcome' ordinal='22' />
+            <column datatype='string' name='Category' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lgdolo1979y4e125blwy0qqrj55' name='Crowdfunding_project' table='[Crowdfunding_project$]' type='table'>
+          <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='name' ordinal='1' />
+            <column datatype='string' name='blurb' ordinal='2' />
+            <column datatype='real' name='goal' ordinal='3' />
+            <column datatype='integer' name='pledged' ordinal='4' />
+            <column datatype='boolean' name='disable_communication' ordinal='5' />
+            <column datatype='string' name='country' ordinal='6' />
+            <column datatype='string' name='currency' ordinal='7' />
+            <column datatype='boolean' name='currency_trailing_code' ordinal='8' />
+            <column datatype='integer' name='deadline' ordinal='9' />
+            <column datatype='integer' name='launched_at' ordinal='10' />
+            <column datatype='boolean' name='staff_pick' ordinal='11' />
+            <column datatype='integer' name='backers_count' ordinal='12' />
+            <column datatype='boolean' name='spotlight' ordinal='13' />
+            <column datatype='integer' name='Successful_Projects' ordinal='14' />
+            <column datatype='datetime' name='Date Created Conversion' ordinal='15' />
+            <column datatype='datetime' name='Date Ended Conversion' ordinal='16' />
+            <column datatype='real' name='Project run_day' ordinal='17' />
+            <column datatype='integer' name='Year' ordinal='18' />
+            <column datatype='integer' name='Month' ordinal='19' />
+            <column datatype='string' name='Monthname' ordinal='20' />
+            <column datatype='integer' name='Quarter' ordinal='21' />
+            <column datatype='string' name='outcome' ordinal='22' />
+            <column datatype='string' name='Category' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X10001:no:A1:X10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blurb</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[blurb]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>blurb</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>goal</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pledged</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pledged]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>pledged</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disable_communication</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[disable_communication]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>disable_communication</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>currency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[currency]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>currency</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>currency_trailing_code</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[currency_trailing_code]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>currency_trailing_code</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deadline</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[deadline]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>deadline</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>launched_at</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[launched_at]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>launched_at</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>staff_pick</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[staff_pick]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>staff_pick</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>backers_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[backers_count]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>backers_count</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>spotlight</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[spotlight]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>spotlight</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful_Projects</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful_Projects]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Successful_Projects</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Created Conversion</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date Created Conversion]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Date Created Conversion</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Ended Conversion</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date Ended Conversion]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Date Ended Conversion</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Project run_day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Project run_day]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Project run_day</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthname</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Monthname]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Monthname</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quarter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quarter]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Quarter</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>outcome</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[outcome]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>outcome</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Crowdfunding_project]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total_Projects' datatype='real' datatype-customized='true' name='[Calculation_76561236096057344]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='FLOAT(COUNT([id]))' />
+      </column>
+      <column caption='Successful_Project' datatype='integer' name='[Calculation_76561236106145793]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Amount_Raised' datatype='integer' name='[Calculation_76561236107685890]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([pledged])' />
+      </column>
+      <column caption='Number_of_Backers' datatype='integer' name='[Calculation_76561236108185603]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([backers_count])' />
+      </column>
+      <column caption='Project_duration_days' datatype='integer' name='[Calculation_76561236108500996]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Date Created Conversion], [Date Ended Conversion])' />
+      </column>
+      <column caption='Avg_days_for_successful_project' datatype='real' name='[Calculation_76561236108738565]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG(IF [outcome] = &apos;successful&apos; THEN [Calculation_76561236108500996] END)' />
+      </column>
+      <column caption='% of successful projects' datatype='real' name='[Calculation_76561236145717254]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END) / COUNT([id])' />
+      </column>
+      <column caption='%  of successful Project by Goal Range' datatype='string' name='[Calculation_76561236151574535]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [goal] &lt;= 1000 THEN &quot;0-1K&quot;&#13;&#10;ELSEIF [goal] &lt;= 5000 THEN &quot;1K-5K&quot;&#13;&#10;ELSEIF [goal] &lt;= 10000 THEN &quot;5K-10K&quot;&#13;&#10;ELSEIF [goal] &lt;= 50000 THEN &quot;10K-50K&quot;&#13;&#10;ELSE &quot;50K+&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='date' datatype-customized='true' name='[Date Created Conversion]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Project run day' datatype='real' name='[Project run_day]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Quarter]' role='dimension' type='quantitative' />
+      <column caption='Successful Projects' datatype='integer' name='[Successful_Projects]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Crowdfunding_project' datatype='table' name='[__tableau_internal_object_id__].[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]' role='measure' type='quantitative' />
+      <column caption='Backers Count' datatype='integer' name='[backers_count]' role='measure' type='quantitative' />
+      <column caption='Blurb' datatype='string' name='[blurb]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Currency' datatype='string' name='[currency]' role='dimension' type='nominal' />
+      <column caption='Currency Trailing Code' datatype='boolean' name='[currency_trailing_code]' role='dimension' type='nominal' />
+      <column caption='Deadline' datatype='integer' name='[deadline]' role='measure' type='quantitative' />
+      <column caption='Disable Communication' datatype='boolean' name='[disable_communication]' role='dimension' type='nominal' />
+      <column caption='Goal' datatype='real' name='[goal]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Launched At' datatype='integer' name='[launched_at]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+      <column caption='Pledged' datatype='integer' name='[pledged]' role='measure' type='quantitative' />
+      <column caption='Spotlight' datatype='boolean' name='[spotlight]' role='dimension' type='nominal' />
+      <column caption='Staff Pick' datatype='boolean' name='[staff_pick]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Pallavi/AppData/Local/Temp/TableauTemp/#TableauTemp_183u8hb10s3mnh1fjaewi1ozqh38.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/22/2024 07:56:18 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>365892</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>365892</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>blurb</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[blurb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>blurb</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>355114</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>goal</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[goal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>goal</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2527</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pledged</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pledged]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pledged</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31351</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>disable_communication</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[disable_communication]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>disable_communication</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>currency</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[currency]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>currency</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>currency_trailing_code</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[currency_trailing_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>currency_trailing_code</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>deadline</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[deadline]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>deadline</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>355114</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>launched_at</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[launched_at]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>launched_at</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>365892</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>staff_pick</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[staff_pick]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>staff_pick</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>backers_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[backers_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>backers_count</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2626</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>spotlight</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[spotlight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>spotlight</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Successful_Projects</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Successful_Projects]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Successful_Projects</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date Created Conversion</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Date Created Conversion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date Created Conversion</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>365892</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date Ended Conversion</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Date Ended Conversion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date Ended Conversion</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>355114</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Project run_day</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Project run_day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Project run_day</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24409</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Monthname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthname</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Quarter</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Quarter]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Quarter</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>outcome</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[outcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>outcome</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Crowdfunding_project</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>339</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Crowdfunding_project' id='Crowdfunding!project_2E10522271564621B0D5301BDCA35CD2'>
+            <properties context=''>
+              <relation connection='excel-direct.0lgdolo1979y4e125blwy0qqrj55' name='Crowdfunding_project' table='[Crowdfunding_project$]' type='table'>
+                <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='name' ordinal='1' />
+                  <column datatype='string' name='blurb' ordinal='2' />
+                  <column datatype='real' name='goal' ordinal='3' />
+                  <column datatype='integer' name='pledged' ordinal='4' />
+                  <column datatype='boolean' name='disable_communication' ordinal='5' />
+                  <column datatype='string' name='country' ordinal='6' />
+                  <column datatype='string' name='currency' ordinal='7' />
+                  <column datatype='boolean' name='currency_trailing_code' ordinal='8' />
+                  <column datatype='integer' name='deadline' ordinal='9' />
+                  <column datatype='integer' name='launched_at' ordinal='10' />
+                  <column datatype='boolean' name='staff_pick' ordinal='11' />
+                  <column datatype='integer' name='backers_count' ordinal='12' />
+                  <column datatype='boolean' name='spotlight' ordinal='13' />
+                  <column datatype='integer' name='Successful_Projects' ordinal='14' />
+                  <column datatype='datetime' name='Date Created Conversion' ordinal='15' />
+                  <column datatype='datetime' name='Date Ended Conversion' ordinal='16' />
+                  <column datatype='real' name='Project run_day' ordinal='17' />
+                  <column datatype='integer' name='Year' ordinal='18' />
+                  <column datatype='integer' name='Month' ordinal='19' />
+                  <column datatype='string' name='Monthname' ordinal='20' />
+                  <column datatype='integer' name='Quarter' ordinal='21' />
+                  <column datatype='string' name='outcome' ordinal='22' />
+                  <column datatype='string' name='Category' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='% of Successful Projects'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;&#10;&lt;</run>
+            <run fontalignment='1'>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]</run>
+            <run fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='% of successful projects' datatype='real' name='[Calculation_76561236145717254]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END) / COUNT([id])' />
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236145717254]' derivation='User' name='[usr:Calculation_76561236145717254:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7FA14ADC-FE47-4956-94C3-38BAC9D8C47D}' />
+    </worksheet>
+    <worksheet name='% of Successful Projects by Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;&#10;&lt;</run>
+            <run fontalignment='1'>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]</run>
+            <run fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='% of successful projects' datatype='real' name='[Calculation_76561236145717254]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END) / COUNT([id])' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236145717254]' derivation='User' name='[usr:Calculation_76561236145717254:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:Category:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{49F9F893-E02B-457D-82CC-14A56D69B329}' />
+    </worksheet>
+    <worksheet name='% of Successful Projects by Goal Range'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='% of successful projects' datatype='real' name='[Calculation_76561236145717254]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END) / COUNT([id])' />
+            </column>
+            <column caption='%  of successful Project by Goal Range' datatype='string' name='[Calculation_76561236151574535]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [goal] &lt;= 1000 THEN &quot;0-1K&quot;&#13;&#10;ELSEIF [goal] &lt;= 5000 THEN &quot;1K-5K&quot;&#13;&#10;ELSEIF [goal] &lt;= 10000 THEN &quot;5K-10K&quot;&#13;&#10;ELSEIF [goal] &lt;= 50000 THEN &quot;10K-50K&quot;&#13;&#10;ELSE &quot;50K+&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Goal' datatype='real' name='[goal]' role='measure' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_76561236151574535]' derivation='None' name='[none:Calculation_76561236151574535:nk]' pivot='key' type='nominal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236145717254]' derivation='User' name='[usr:Calculation_76561236145717254:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' />
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:Calculation_76561236151574535:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{A98EC34C-69FB-42CF-8C18-C8E128A9B33B}' />
+    </worksheet>
+    <worksheet name='% of Successful Projects by Year,Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='% of successful projects' datatype='real' name='[Calculation_76561236145717254]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END) / COUNT([id])' />
+            </column>
+            <column datatype='date' datatype-customized='true' name='[Date Created Conversion]' role='dimension' type='ordinal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Date Created Conversion]' derivation='Month' name='[mn:Date Created Conversion:ok]' pivot='key' type='ordinal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236145717254]' derivation='User' name='[usr:Calculation_76561236145717254:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Created Conversion]' derivation='Year' name='[yr:Date Created Conversion:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0pl8xda0svupbh187xzk91v3cr95].[yr:Date Created Conversion:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[mn:Date Created Conversion:ok]</cols>
+      </table>
+      <simple-id uuid='{40CF7D2E-8A8C-47AC-8C34-1407C176658C}' />
+    </worksheet>
+    <worksheet name='Successful Projects_Avg_No_of_days'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;&#10;&lt;</run>
+            <run fontalignment='1'>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236108738565:qk]</run>
+            <run fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Project_duration_days' datatype='integer' name='[Calculation_76561236108500996]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEDIFF(&apos;day&apos;, [Date Created Conversion], [Date Ended Conversion])' />
+            </column>
+            <column caption='Avg_days_for_successful_project' datatype='real' name='[Calculation_76561236108738565]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG(IF [outcome] = &apos;successful&apos; THEN [Calculation_76561236108500996] END)' />
+            </column>
+            <column datatype='date' datatype-customized='true' name='[Date Created Conversion]' role='dimension' type='ordinal' />
+            <column datatype='datetime' name='[Date Ended Conversion]' role='dimension' type='ordinal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236108738565]' derivation='User' name='[usr:Calculation_76561236108738565:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236108738565:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236108738565:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{416FF36C-E408-47A5-B780-521F88AF90CC}' />
+    </worksheet>
+    <worksheet name='Successful_Project_AmountRaised'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Amount_Raised' datatype='integer' name='[Calculation_76561236107685890]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([pledged])' />
+            </column>
+            <column caption='Pledged' datatype='integer' name='[pledged]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_76561236107685890]' derivation='User' name='[usr:Calculation_76561236107685890:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236107685890:qk]' value='n#,##0,,.00M;-#,##0,,.00M' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236107685890:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6C4F356D-1F77-4EA0-8D59-99DC49AAA954}' />
+    </worksheet>
+    <worksheet name='Successful_Project_Number_of_backers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'><![CDATA[Successful_Project_NumberofBackers
+<]]></run>
+            <run fontalignment='1'>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236108185603:qk]</run>
+            <run fontalignment='1'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Number_of_Backers' datatype='integer' name='[Calculation_76561236108185603]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([backers_count])' />
+            </column>
+            <column caption='Backers Count' datatype='integer' name='[backers_count]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_76561236108185603]' derivation='User' name='[usr:Calculation_76561236108185603:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236108185603:qk]' value='n#,##0,K;-#,##0,K' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236108185603:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{94C97F4E-8206-461A-A314-076661AEBF17}' />
+    </worksheet>
+    <worksheet name='Successful_Projects'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Successful_Project' datatype='integer' name='[Calculation_76561236106145793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column-instance column='[Calculation_76561236106145793]' derivation='Count' name='[cnt:Calculation_76561236106145793:qk]' pivot='key' type='quantitative' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236106145793]' derivation='Sum' name='[sum:Calculation_76561236106145793:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:Calculation_76561236106145793:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[cnt:Calculation_76561236106145793:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{02F9AF2D-3504-4C70-8AFB-74229C19B83E}' />
+    </worksheet>
+    <worksheet name='Top successful project by Amount Raised'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Successful_Project' datatype='integer' name='[Calculation_76561236106145793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Amount_Raised' datatype='integer' name='[Calculation_76561236107685890]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([pledged])' />
+            </column>
+            <column caption='Backers Count' datatype='integer' name='[backers_count]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column caption='Pledged' datatype='integer' name='[pledged]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_76561236106145793]' derivation='Sum' name='[sum:Calculation_76561236106145793:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[backers_count]' derivation='Sum' name='[sum:backers_count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_76561236107685890]' derivation='User' name='[usr:Calculation_76561236107685890:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_76561236107685890]' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:Calculation_76561236106145793:qk]' included-values='in-range'>
+            <min>0</min>
+            <max>5</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236107685890:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:Calculation_76561236106145793:qk]</column>
+            <column>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:backers_count:qk]' value='n#,##0,K;-#,##0,K' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:backers_count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236107685890:qk]</cols>
+      </table>
+      <simple-id uuid='{D504D127-E646-43E7-B98C-502B521054FA}' />
+    </worksheet>
+    <worksheet name='Top successful project by No: of backers'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Successful_Project' datatype='integer' name='[Calculation_76561236106145793]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [outcome] = &apos;successful&apos; THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Backers Count' datatype='integer' name='[backers_count]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236106145793]' derivation='Sum' name='[sum:Calculation_76561236106145793:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[backers_count]' derivation='Sum' name='[sum:backers_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([backers_count])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:name:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:Calculation_76561236106145793:qk]' included-values='in-range'>
+            <min>0</min>
+            <max>5</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:backers_count:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:Calculation_76561236106145793:qk]</column>
+            <column>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:backers_count:qk]' value='n#,##0,K;-#,##0,K' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:backers_count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:name:nk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[sum:backers_count:qk]</cols>
+      </table>
+      <simple-id uuid='{2287BDD4-55FA-4D1B-B4BE-AC0CE87BB290}' />
+    </worksheet>
+    <worksheet name='Total_Projects by category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Total_Projects' datatype='real' datatype-customized='true' name='[Calculation_76561236096057344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='FLOAT(COUNT([id]))' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_76561236096057344]' derivation='User' name='[usr:Calculation_76561236096057344:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:Category:nk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]</cols>
+      </table>
+      <simple-id uuid='{B17E80AD-4658-41DD-AE50-3974A3090DCC}' />
+    </worksheet>
+    <worksheet name='Total_Projects by location'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Total_Projects' datatype='real' datatype-customized='true' name='[Calculation_76561236096057344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='FLOAT(COUNT([id]))' />
+            </column>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_76561236096057344]' derivation='User' name='[usr:Calculation_76561236096057344:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:country:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='[Calculation_76561236096057344]' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:country:nk]' direction='DESC' />
+          <slices>
+            <column>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:country:nk]</cols>
+      </table>
+      <simple-id uuid='{EB03CE7B-1FB0-4974-BCFF-706EB9EF9A80}' />
+    </worksheet>
+    <worksheet name='Total_Projects by outcome'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Total_Projects' datatype='real' datatype-customized='true' name='[Calculation_76561236096057344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='FLOAT(COUNT([id]))' />
+            </column>
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[outcome]' derivation='None' name='[none:outcome:nk]' pivot='key' type='nominal' />
+            <column caption='Outcome' datatype='string' name='[outcome]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_76561236096057344]' derivation='User' name='[usr:Calculation_76561236096057344:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0pl8xda0svupbh187xzk91v3cr95].[none:outcome:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[none:outcome:nk]</rows>
+        <cols>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]</cols>
+      </table>
+      <simple-id uuid='{0A525C17-222F-4F6C-A698-6B3137723F0C}' />
+    </worksheet>
+    <worksheet name='Total_Projects by year,quarter &amp; month'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Crowdfunding_project (Crowdfunding_Project)' name='federated.0pl8xda0svupbh187xzk91v3cr95' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pl8xda0svupbh187xzk91v3cr95'>
+            <column caption='Total_Projects' datatype='real' datatype-customized='true' name='[Calculation_76561236096057344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='FLOAT(COUNT([id]))' />
+            </column>
+            <column datatype='date' datatype-customized='true' name='[Date Created Conversion]' role='dimension' type='ordinal' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+            <column-instance column='[Date Created Conversion]' derivation='Month' name='[mn:Date Created Conversion:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Date Created Conversion]' derivation='Quarter' name='[qr:Date Created Conversion:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_76561236096057344]' derivation='User' name='[usr:Calculation_76561236096057344:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Created Conversion]' derivation='Year' name='[yr:Date Created Conversion:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236096057344:qk]</rows>
+        <cols>([federated.0pl8xda0svupbh187xzk91v3cr95].[yr:Date Created Conversion:ok] / ([federated.0pl8xda0svupbh187xzk91v3cr95].[qr:Date Created Conversion:ok] / [federated.0pl8xda0svupbh187xzk91v3cr95].[mn:Date Created Conversion:ok]))</cols>
+      </table>
+      <simple-id uuid='{FCBFF9A5-F51E-4759-8ACF-544D345044D6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#d6d6d6' />
+        </style-rule>
+      </style>
+      <size maxheight='1060' maxwidth='1150' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone forceUpdate='true' h='6071' id='3' type-v2='text' w='47147' x='176' y='1786'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Times New Roman' fontsize='20'>KICKSTARTER </run>
+            <run bold='true' fontcolor='#000000' fontname='Times New Roman' fontsize='14'>Crowdfunding Analysis Dashboard</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffaa00' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='4' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='6071' id='3' type-v2='text' w='47147' x='176' y='1786'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Times New Roman' fontsize='20'>KICKSTARTER </run>
+                    <run bold='true' fontcolor='#000000' fontname='Times New Roman' fontsize='14'>Crowdfunding Analysis Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffaa00' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B6A06669-A2D2-4903-A7F7-8BD9FBC1E1F1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Total_Projects by outcome'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7CEE503D-7FCA-41BE-97E2-64120C4A80D8}' />
+    </window>
+    <window class='worksheet' name='Total_Projects by location'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2B5C197A-9F35-4BB1-B11E-751B7DA464EE}' />
+    </window>
+    <window class='worksheet' name='Total_Projects by category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CB2B6DBC-5D06-4AC4-A310-9CDDEFF509B2}' />
+    </window>
+    <window class='worksheet' name='Total_Projects by year,quarter &amp; month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2DEDF949-F015-45BE-A4D2-3ED206FAD727}' />
+    </window>
+    <window class='worksheet' name='Successful_Projects'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3A39CDE8-C688-4B98-AC0F-D4B7B241B6CE}' />
+    </window>
+    <window class='worksheet' name='Successful_Project_AmountRaised'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DFA95E52-196D-4711-924E-604392F95B14}' />
+    </window>
+    <window class='worksheet' name='Successful_Project_Number_of_backers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{4A0B2D12-B7C3-451C-979A-B3B49EB17F79}' />
+    </window>
+    <window class='worksheet' name='Successful Projects_Avg_No_of_days'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DAF98EF1-623D-4701-9F50-AFA7B8DBA56C}' />
+    </window>
+    <window class='worksheet' name='Top successful project by No: of backers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C4EC7AFA-8DA4-4665-B631-FACA4C754407}' />
+    </window>
+    <window class='worksheet' name='Top successful project by Amount Raised'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5AE08AB7-84DE-41CD-9438-C1AF3A64ACE6}' />
+    </window>
+    <window class='worksheet' name='% of Successful Projects'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E85281FE-70C3-4247-96C1-672FEBF11169}' />
+    </window>
+    <window class='worksheet' name='% of Successful Projects by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6292FD21-7C2C-4BF4-9C59-EFCD6CCA7E2F}' />
+    </window>
+    <window class='worksheet' name='% of Successful Projects by Year,Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pl8xda0svupbh187xzk91v3cr95].[yr:Date Created Conversion:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1572FB7E-0AB2-4E9D-94A0-42283DCD27D9}' />
+    </window>
+    <window class='worksheet' name='% of Successful Projects by Goal Range'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pl8xda0svupbh187xzk91v3cr95].[usr:Calculation_76561236145717254:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7EED27DD-7FD2-470C-850E-C77415E4A547}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{7938BC8C-B1EC-4FB3-BDBC-CD03A7BB5E0B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Total_Projects by outcome' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
